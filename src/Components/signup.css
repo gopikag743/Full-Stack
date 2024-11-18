@@ -1,0 +1,107 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.arrow{
+    margin-left: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.main h1{
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.main input{
+   height: 5vh;
+   width: 30vw;
+   border: 2px solid rgb(63, 61, 61);
+   border-radius: 10px;
+   padding-bottom: 5px;
+   margin-bottom: 10px;
+   cursor: pointer;
+}
+
+::placeholder{
+    font-size: larger;
+    padding-left: 12px;
+}
+
+#pass{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: rgb(51, 51, 150);
+    cursor: pointer;
+}
+
+#login{
+    /* padding: 10px; */
+    border: 2px solid rgb(63, 61, 61);
+    border-radius: 5px;
+    background-color: blue;
+    margin-bottom: 10px;
+    height: 5vh;
+    width: 30vw;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 35px;
+    cursor: pointer;
+    color: beige;
+    font-size: larger;
+}
+
+.acc{
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#login:hover{
+    background-color: rgb(126, 126, 128);
+    color: black;
+}
+
+h2{
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.google button{
+    border: 2px solid rgb(63, 61, 61);
+    border-radius: 5px;
+    height: 5vh;
+    width: 30vw;
+    padding: 20px;
+    font-size: larger;
+   padding-bottom: 35px;
+   padding-top: 10px;
+   cursor: pointer;
+   margin-bottom: 10px;
+}
+
+.google button:hover{
+    background-color: rgb(126, 126, 128);
+}
+
+.link button{
+    border: 2px solid rgb(63, 61, 61);
+    border-radius: 5px;
+    height: 5vh;
+    width: 30vw;
+    padding: 20px;
+    font-size: larger;
+   padding-bottom: 35px;
+   padding-top: 10px;
+   cursor: pointer;
+}
+
+.link button:hover{
+    background-color: rgb(126, 126, 128);
+}

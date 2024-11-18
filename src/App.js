@@ -1,25 +1,35 @@
-import logo from './logo.svg';
+import React from 'react'
+import Screen1 from './Components/screen1';
+import Login from './Components/login'; 
+import Signup from './Components/signup'; 
+import { BrowserRouter as Router,Route,Routes,Link } from 'react-router-dom';
+// import { Routes,Route } from 'react-router-dom';
+// import React from 'react';
+// import Header from './Components/Header';
+// import JobList from './Components/JobList';
+// import Footer from './Components/Footer';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    <Router>
+    <Routes>
+      <Route path="/" element={<Screen1/>} />
+      <Route path="/Login" element={<Login />} />
+      <Route path="/Signup" element={<Signup />} />
+    </Routes>
+    </Router>
+    {/* <Header />
+      <JobList />
+      <Footer /> */}
+    {/* <Screen1/> */}
+    {/* <Login/> */}
+    {/* <Signup/> */}
+
+    </>
+
+  )
 }
 
-export default App;
+export default App
